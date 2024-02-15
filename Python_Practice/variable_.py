@@ -71,8 +71,8 @@ A,B=1,2
 C=A/B
 print(C)
 
-Rule 6
+# Rule 6
 # Integer division with float and int will give int displayed as float
 num1,num2=1.5,3
 num3=num1//num2
-print(num3,num1.num2)
+print(num3,num1/num2)
