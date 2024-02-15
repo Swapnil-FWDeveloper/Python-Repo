@@ -1,16 +1,15 @@
-Sure, here are some very short and informative notes for a README file about variables, rules for identifiers/variables, and data types:
-
----
+```markdown
+# Python Basics
 
 ## Variables
 
-A variable is a name given to a memory location in a program.
+Variables are named memory locations in a program.
 
 Example:
 ```python
 name = "Swapnil"
 ```
-Here, `name` is a variable with the value "Swapnil", representing a memory location holding the value "Swapnil".
+`name` is a variable holding the value "Swapnil".
 
 ## Rules for Identifiers / Variables
 
@@ -21,8 +20,8 @@ Here, `name` is a variable with the value "Swapnil", representing a memory locat
 
 ## Data Types
 
-- **Integer**: Represents whole numbers, positive, negative, or zero.
-- **String**: Represents text data, enclosed in double or single quotes.
+- **Integer**: Represents whole numbers.
+- **String**: Represents text data.
 - **Float**: Represents decimal numbers.
 - **Boolean**: Represents True or False values.
 - **None**: Represents the absence of a value.
@@ -36,44 +35,59 @@ is_student = True
 no_value = None
 ```
 
-Keywords
-Keywords are reserved words in python.
-Ture False return break class while if else or import elif else and many more. 
-rest please google it.
+## Expression Execution
 
-Types of Token
-Punctuators
-are the symbols to organize sentence structure in programming.
-().{},@,[],#, etc.
+### Rule 1
+```python
+A, B = 2, 3
+expExe = "@"
+print(A * expExe * B)
+print(2 * expExe * 3)
+```
+The code assigns `2` to `A`, `3` to `B`, `"@"` to `expExe`, then prints `"@@@"`.
 
-Python is a implicit language
-means here we dont have to tell python its type everytime
-ex name="Swapnil" here we have not tell is type 
+### Rule 2
+```python
+a, b = "2", 3
+expExe1 = "@"
+print((a + expExe1) * b)
+```
+The code assigns the string `"2"` to `a`, `3` to `b`, `"@"` to `expExe1`, then prints `"@@@"`.
 
+### Rule 3
+```python
+c, d = 2, 3
+e = 4
+print(c + d * e)
+```
+Numeric values can operate with all operators.
 
-Explicit here we have to tell its type always like JAVA, C++
+### Rule 4
+```python
+c, d = 2.5, 3
+e = c * d
+print(e)
+```
+Arithmetic expression with Integer and float results in float.
 
+### Rule 5
+```python
+A, B = 1, 2
+C = A / B
+print(C)
 
-#Expression Execution 
+```
+Division operator with two integers results in float.
 
-#Rule 1
-A,B=2,3
-expExe="@"
-print(A*expExe*B)
-print(2*expExe*3)
-#The code assigns `2` to `A`, `3` to `B`, `"@"` to `expExe`, then prints `"@@@"  as Python is Expression Execution language.
+### Rule 6
+```python
 
-#Rule 2
-# String & Sting can operate with +
-a,b="2",3
-expExe1="@"
-print((a+expExe1)*b)
-# The code assigns the string `"2"` to `a`, `3` to `b`, `"@"` to `expExe1`, then prints `"@@@".
+num1, num2 = 1.5, 3
+num3 = num1 // num2
+print(num3, num1 / num2)
 
-# Rule 3
-# Numeric value can operate with all the operator
-c,d=2,3
-e=4
-print(c+d*e)
----
+```
+Integer division with float and int results in int displayed as float.
+```
 
+These notes provide a concise overview of Python basics, covering variables, rules for identifiers, data types, and expression execution.
