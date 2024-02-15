@@ -51,3 +51,19 @@ print((a+expExe1)*b)
 
 # Rule 3
 # Numeric value can operate with all the operator
+c,d=2,3
+e=4
+print(c+d*e)
+
+# Rule 4
+
+# Arithmetic expression with Integer and float will result in float
+
+c,d=2.5,3
+e=c*d
+print(e)
+
+
+
+# Rule 5
+

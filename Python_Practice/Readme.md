@@ -70,5 +70,10 @@ expExe1="@"
 print((a+expExe1)*b)
 # The code assigns the string `"2"` to `a`, `3` to `b`, `"@"` to `expExe1`, then prints `"@@@".
 
+# Rule 3
+# Numeric value can operate with all the operator
+c,d=2,3
+e=4
+print(c+d*e)
 ---
 
