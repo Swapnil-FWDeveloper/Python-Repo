@@ -38,4 +38,3 @@ no_value = None
 
 ---
 
-Feel free to customize and expand upon these notes as needed for your README file!

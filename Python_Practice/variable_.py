@@ -9,7 +9,7 @@ print (name)
 # Reassign 
 
 name='Raja'
-name='Swapnil'
+name='Swapnil' # Reasigned
 print(name)
 
 
@@ -19,3 +19,9 @@ name = "John"  # String
 height = 5.11  # Float
 is_student = True # Boolean
 no_value = None # None
+
+print(age)
+print(name)
+print(height)
+print(is_student)
+print(no_value)
