@@ -36,5 +36,39 @@ is_student = True
 no_value = None
 ```
 
+Keywords
+Keywords are reserved words in python.
+Ture False return break class while if else or import elif else and many more. 
+rest please google it.
+
+Types of Token
+Punctuators
+are the symbols to organize sentence structure in programming.
+().{},@,[],#, etc.
+
+Python is a implicit language
+means here we dont have to tell python its type everytime
+ex name="Swapnil" here we have not tell is type 
+
+
+Explicit here we have to tell its type always like JAVA, C++
+
+
+#Expression Execution 
+
+#Rule 1
+A,B=2,3
+expExe="@"
+print(A*expExe*B)
+print(2*expExe*3)
+#The code assigns `2` to `A`, `3` to `B`, `"@"` to `expExe`, then prints `"@@@"  as Python is Expression Execution language.
+
+#Rule 2
+# String & Sting can operate with +
+a,b="2",3
+expExe1="@"
+print((a+expExe1)*b)
+# The code assigns the string `"2"` to `a`, `3` to `b`, `"@"` to `expExe1`, then prints `"@@@".
+
 ---
 
