@@ -100,3 +100,9 @@ elif False :
     print("conditon is false")
 else :
      print("conditon is not valid")
+
+
+
+# For loop in python
+
+# for
