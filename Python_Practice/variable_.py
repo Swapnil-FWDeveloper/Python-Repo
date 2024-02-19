@@ -1,106 +1,63 @@
-# # Print "Hello world"
-# print("Hello world")
+# Welcome message
+print("Welcome to the Python Developer Script!")
 
-# # Print "Hello my name is Swapnil" in one line
-# print("Hello", "my name is Swapnil")
+# Define variables
+name = "Swapnil"  # Storing user's name
+age = 25  # Storing user's age
+height = 5.11  # Storing user's height
+is_student = True  # Storing whether user is a student or not
 
-# # Define and print name
-# name = "Swapnil"
-# print(name)
+# Print user information
+print("Name:", name)
+print("Age:", age)
+print("Height:", height, "feet")
+print("Is Student:", is_student)
 
-# # Reassign the name variable
-# name = 'Raja'  # Reassigning
-# name = 'Swapnil'  # Reassigned
-# print(name)
+# Calculate and print the sum of two numbers
+a = 2
+b = 5
+sum_ab = a + b
+print("Sum of", a, "and", b, "is", sum_ab)
 
-# # Define variables with different data types and print them
-# age = 25  # Integer
-# name = "John"  # String
-# height = 5.11  # Float
-# is_student = True  # Boolean
-# no_value = None  # None
+# Define variables for expression execution rules
+A, B = 2, 3
+exp_exe = "@"  # Storing expression symbol
+string_a, numeric_b = "2", 3  # Storing string and numeric values for expression rule 2
+numeric_c, numeric_d, numeric_e = 2, 3, 4  # Storing numeric values for expression rule 3
 
-# print(age)
-# print(name)
-# print(height)
-# print(is_student)
-# print(no_value)
+# Demonstrate expression execution rules
+print("Rule 1:", A * exp_exe * B)
+print("Rule 2:", (string_a + exp_exe) * numeric_b)
+print("Rule 3:", numeric_c + numeric_d * numeric_e)
+print("Rule 4:", 2.5 * 3)
+print("Rule 5:", 1 / 2)  # Using integer division in Python 2, use 1 / 2.0 for float division
+print("Rule 6:", 1.5 // 3, 1.5 / 3)  # Displaying integer division result as float
 
-# # Print the sum of two variables
-# a = 2
-# b = 5
-# sum_ab = a + b
-# print(sum_ab)
+# Input from user
+name = input("Enter your name: ")  # Taking user's name as input
+age = int(input("Enter your age: "))  # Taking user's age as input
+roll_no = float(input("Enter your roll number: "))  # Taking user's roll number as input
 
-# # Expression Execution Rule 1
-# A, B = 2, 3
-# expExe = "@"
-# print(A * expExe * B)
-# print(2 * expExe * 3)
-
-# # Expression Execution Rule 2
-# # String and string can operate with +
-# a, b = "2", 3
-# expExe1 = "@"
-# print((a + expExe1) * b)
-
-# # Expression Execution Rule 3
-# # Numeric values can operate with all the operators
-# c, d = 2, 3
-# e = 4
-# print(c + d * e)
-
-# # Expression Execution Rule 4
-# # Arithmetic expression with Integer and float will result in float
-# c, d = 2.5, 3
-# e = c * d
-# print(e)
-
-# # Expression Execution Rule 5
-# # Result of division operator with two integers will be a float
-# A, B = 1, 2
-# C = A / B
-# print(C)
-
-# # Expression Execution Rule 6
-# # Integer division with float and int will give int displayed as float
-# num1, num2 = 1.5, 3
-# num3 = num1 // num2
-# print(num3, num1 / num2)
+# Print user input
+print("My name is", name, "and I am", age, "years old. My roll number is", roll_no)
 
 
-# # Input in Python
-# # intput() statement is uesd to accept values (using kyeboard) from user
+# Conditional statement (if elif else)
+if True:
+    print("The condition is true")
+elif False:
+    print("The condition is false")
+else:
+    print("This block won't be executed")
 
-# # # string input
-# # name = input("name : ")
-# # # int input
-# # age=int(input("age : "))
-# # # float input
-# # price=float(input("price : "))
+check_out = not True and False or True
+print(check_out)
 
-# # Taking input from user & printing it
+# Example2
 
-# # name=input("name : ")
-# # age=int(input("age : "))
-# # roll_no=float(input("Roll. No : "))
+# Single line if / Ternary Operator
 
-# # print("My name is ", name , "and my age is",age,"and my roll no is", roll_no)
+food = input("food: ")
+eat = "Yes" if food == "cake" else "No"
+print(eat)
 
-# # Boolien in Python
-
-# check_out = not True and False or True
-# print(check_out)
-
-# Conditional Statement if elif or else
-
-if True : 
-    print("conditon is true")
-elif False :
-    print("conditon is false")
-else :
-     print("conditon is not valid")
-
-# for loop in python
-
-# for
