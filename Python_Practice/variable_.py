@@ -101,8 +101,6 @@ elif False :
 else :
      print("conditon is not valid")
 
-
-
-# For loop in python
+# for loop in python
 
 # for
