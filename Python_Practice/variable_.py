@@ -72,18 +72,31 @@
 # # Input in Python
 # # intput() statement is uesd to accept values (using kyeboard) from user
 
-# # string input
-# name = input("name : ")
-# # int input
-# age=int(input("age : "))
-# # float input
-# price=float(input("price : "))
+# # # string input
+# # name = input("name : ")
+# # # int input
+# # age=int(input("age : "))
+# # # float input
+# # price=float(input("price : "))
 
-#Taking input from user & printing it
+# # Taking input from user & printing it
 
-name=input("name : ")
-age=int(input("age : "))
-roll_no=float(input("Roll. No : "))
+# # name=input("name : ")
+# # age=int(input("age : "))
+# # roll_no=float(input("Roll. No : "))
 
-print("My name is ", name , "and my age is",age,"and my roll no is", roll_no)
+# # print("My name is ", name , "and my age is",age,"and my roll no is", roll_no)
 
+# # Boolien in Python
+
+# check_out = not True and False or True
+# print(check_out)
+
+# Conditional Statement if elif or else
+
+if True : 
+    print("conditon is true")
+elif False :
+    print("conditon is false")
+else :
+     print("conditon is not valid")
