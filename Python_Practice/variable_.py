@@ -91,3 +91,51 @@ print("Modulus:", result)
 # Exponentiation
 result = 2 ** 3
 print("Exponentiation:", result)
+
+
+# Comparison Operators:
+# These operators are used to compare values and return True or False.
+
+# Equal to
+print(5 == 5)  # True
+
+# Not equal to
+print(5 != 5)  # False
+
+# Greater than
+print(10 > 5)  # True
+
+# Less than
+print(3 < 8)   # True
+
+# Greater than or equal to
+print(7 >= 7)  # True
+
+# Less than or equal to
+print(4 <= 3)  # False
+
+
+# Logical Operators:
+# These operators are used to combine conditional statements.
+
+# Logical AND
+print(True and True)   # True
+print(True and False)  # False
+
+# Logical OR
+print(True or False)   # True
+print(False or False)  # False
+
+# Logical NOT
+print(not True)        # False
+print(not False)       # True
+
+
+# Assignment Operators:
+# These operators are used to assign values to variables.
+
+x = 5   # Assignment
+x += 3  # Increment by 3 (Equivalent to x = x + 3)
+x -= 2  # Decrement by 2 (Equivalent to x = x - 2)
+x *= 4  # Multiply by 4 (Equivalent to x = x * 4)
+x /= 2  # Divide by 2 (Equivalent to x = x / 2)
