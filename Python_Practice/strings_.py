@@ -32,3 +32,7 @@
 # print(Count_Char.count("Hello", "Volla"))
 
 # Practice
+# WAP to input user's first name and print its length
+
+Enter_Name=str(input("Enter your name : "))
+print(Enter_Name,"name length is ", len(Enter_Name))
