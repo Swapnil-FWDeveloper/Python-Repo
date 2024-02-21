@@ -65,3 +65,10 @@ elif (Percentage >= 50 < 60) :
     print("Congratulation you got C+")            
 else : 
     print("No Worry work on your skills")
+
+
+
+
+
+
+    
