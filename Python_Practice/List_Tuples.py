@@ -30,3 +30,11 @@ print(my_list1)  # Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]
 my_list2 = [1, 5, 9, 7, 5, 3]
 my_list2.insert(1, 6)  # Inserts 6 at index 1
 print(my_list2)  # Output: [1, 6, 5, 9, 7, 5, 3]
+
+
+#Tuples in Python
+
+# A build in data type that lets us create IMMUTABLE sequence of values.
+# Syntax= var=() 
+tup=(5,6,4,7,8,9)
+tup[0]=1 #NOT allowed in python but we can access index value
