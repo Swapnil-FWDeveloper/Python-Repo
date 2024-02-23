@@ -62,7 +62,7 @@
 # Check if a list contains a plindrome of elements
 
 check_Palin=input("Check Palindrome : ")
-rev_Palin= check_Palin.reverse()
+rev_Palin= check_Palin[::-1]
 
 if( check_Palin == rev_Palin ) :
     print("Number is palindrome")
