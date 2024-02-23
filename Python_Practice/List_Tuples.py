@@ -38,3 +38,8 @@ print(my_list2)  # Output: [1, 6, 5, 9, 7, 5, 3]
 # Syntax= var=() 
 tup=(5,6,4,7,8,9)
 tup[0]=1 #NOT allowed in python but we can access index value
+
+
+# Tuple Method
+tup=(1,2,3,4)
+print(tup.ele)
