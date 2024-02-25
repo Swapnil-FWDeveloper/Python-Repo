@@ -2,5 +2,5 @@
 
 #Intro to python .
 ///
-My Python notes .
+# My Python notes .
 
