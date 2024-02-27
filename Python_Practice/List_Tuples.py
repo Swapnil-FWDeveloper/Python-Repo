@@ -1,76 +1,48 @@
-# # Lists in Python
-# # A built-in data type that stores a set of values 
-# # It can store elements of different types (integer, float, string, etc.)
-# # Lists are mutable, meaning their elements can be changed after creation
-# # Lists are similar to arrays in other programming languages
+# Lists and Tuples in Python
 
-# # Example: Accessing elements in a list
-# marks = [87, 64, 33, 95, 76]
-# print(marks[2])  # Accessing the third element, index starts from 0
-# # Output: 33
+# Lists:
+# - A built-in data type that stores a set of values.
+# - Mutable, meaning elements can be changed after creation.
+# - Can store elements of different types (integer, float, string, etc.).
 
-# # Slicing in lists
-# print(marks[1:4])  # Slicing elements from index 1 to 3
-# # Output: [64, 33, 95]
+# Tuples:
+# - A built-in data type that creates immutable sequences of values.
+# - Defined using parentheses ().
+# - Elements cannot be changed after creation.
 
-# # List Methods
+# Tuple Method Example:
 
-# # Append: Adds one element at the end of the list
-# my_list = [1, 2, 3]
-# my_list.append(4)
-# print(my_list)  # Output: [1, 2, 3, 4]
+tup = (1, 2, 3, 4)
+print(tup.index(2))  # Output: 1
+print(tup.count(3))  # Output: 1
 
-# # Sort: Sorts the elements of the list in ascending order by default
-# # To sort in descending order, use list.sort(reverse=True)
-# my_list1 = [5, 6, 1, 2, 3, 8, 9, 4, 7]
-# my_list1.sort()
-# print(my_list1)  # Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# Practice: Asking User for Favorite Movies
+Ent_Mov1 = input("Enter the favorite movie name 1: ")
+Ent_Mov2 = input("Enter the favorite movie name 2: ")
+Ent_Mov3 = input("Enter the favorite movie name 3: ")
+movies = [Ent_Mov1, Ent_Mov2, Ent_Mov3]
+print(movies)
 
-# # Insert: Inserts an element at the specified index
-# my_list2 = [1, 5, 9, 7, 5, 3]
-# my_list2.insert(1, 6)  # Inserts 6 at index 1
-# print(my_list2)  # Output: [1, 6, 5, 9, 7, 5, 3]
+# Check if a List Contains a Palindrome
 
+# Type-1
 
-#Tuples in Python
+check_Palin = input("Check Palindrome: ")
+rev_Palin = check_Palin[::-1]
+if check_Palin == rev_Palin:
+    print("String is a palindrome")
+else:
+    print("String is not a palindrome")
 
-# A build in data type that lets us create IMMUTABLE sequence of values.
-# Syntax= var=() 
-# tup=(5,6,4,7,8,9)
-# tup[0]=1 #NOT allowed in python but we can access index value
+# Type2
+check_Palin1=[1,2,3,4,5]
+check_Palin1.reverse()
+print(check_Palin) 
+# Count the Number of Students with Grade "A"    
+cls_std = ['A', 'B', 'A', 'B', 'D', 'D', 'A', 'A']
+count_A = cls_std.count('A')
+print("Number of students with grade 'A':", count_A)
 
-
-# Tuple Method
-# tup=(1,2,3,4)
-# print(tup.index(2))
-# print(tup.count())
-
-# Practice
-# Ask the user to enter names of their 3 favorite movies and store them in list
-
-# movies=["Dom3", "Dhoom", "Krish", "Om-Shanti-Om"]
-
-# Ent_Mov1=str(input("Enter the fav movies name1 : "))
-# Ent_Mov2=str(input("Enter the fav movies name2 : "))
-# Ent_Mov3=str(input("Enter the fav movies name3 : "))
-# getData=(Ent_Mov1,Ent_Mov2,Ent_Mov3)
-
-# store_data=[]
-# store_data.append(getData)
-# print(store_data)
-
-# Check if a list contains a plindrome of elements
-
-# check_Palin=input("Check Palindrome : ")
-# rev_Palin= check_Palin[::-1]
-
-# if( check_Palin == rev_Palin ) :
-#     print("Number is palindrome")
-# else : 
-#     print("Number is not palindrome")    
-
-list1=[1,2,3]
-if(list1 == list1.reverse()) :
-    print("It is palindrome")
-else :
-    print("Moye Moye")    
+# Sorting and Printing the List
+cls_std.sort()
+print(cls_std)
