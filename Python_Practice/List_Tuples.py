@@ -61,10 +61,16 @@
 
 # Check if a list contains a plindrome of elements
 
-check_Palin=input("Check Palindrome : ")
-rev_Palin= check_Palin[::-1]
+# check_Palin=input("Check Palindrome : ")
+# rev_Palin= check_Palin[::-1]
 
-if( check_Palin == rev_Palin ) :
-    print("Number is palindrome")
-else : 
-    print("Number is not palindrome")    
+# if( check_Palin == rev_Palin ) :
+#     print("Number is palindrome")
+# else : 
+#     print("Number is not palindrome")    
+
+list1=[1,2,3]
+if(list1 == list1.reverse()) :
+    print("It is palindrome")
+else :
+    print("Moye Moye")    
