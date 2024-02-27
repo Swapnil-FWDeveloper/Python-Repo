@@ -94,5 +94,3 @@ Integer division with float and int results in int displayed as float.
 ```
 
 These notes provide a concise overview of Python basics, covering variables, rules for identifiers, data types, and expression execution.
-
-
