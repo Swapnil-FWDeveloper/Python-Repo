@@ -36,6 +36,14 @@ print(student)  # Output: {'marks': {'Science': 99, 'Maths': 99, 'English': 99, 
 
 
 # Set in Python
+
+# Set is an unordered collection of unique elements. Sets are mutable, meaning you can add or remove elements from them. 
+# Sets are defined using curly braces {} and can contain elements of any immutable data type such as integers, floats, strings, and tuples. 
+# However, sets themselves are mutable and cannot be elements of other sets.
+my_set = {1, 2, 3, 4, 5}
+print(my_set)
+
+
 # Methods to manipulate sets
 
 set_eg = {1, 2, 3}
@@ -55,3 +63,37 @@ print(print_data)  # Output: {4, 5, 6}
 set_Eg = {4, 5, 6}
 print_data = set_eg.intersection(set_Eg)  # Returns the common elements between both sets
 print(print_data)  # Output: {4, 5, 6}
+
+
+# Practice Proble
+# Store the value in Dectionary
+Str_val = {
+    "cat" : "A Small animal",
+    "table" : ["A piece of furniture" , "list of facts & figures"]
+}
+
+print(Str_val)
+getKeys=Str_val.keys()
+print(Str_val["cat"])
+print(getKeys)
+
+# assume the class for subjects and find classrooms are needed
+
+cls_room={'Python','Java',"C++","Python", "Java", "JavaScript","Python","C"}
+# find_leng=len(cls_room)
+print(len(cls_room))
+
+
+# Use Subject name as a key and name as a value
+
+marks={}
+x = int(input("enter phy : "))
+marks.update({"Physics" : x})
+
+x = int(input("enter phy : "))
+marks.update({"Maths" : x})
+
+x = int(input("enter phy : "))
+marks.update({"Eng" : x})
+
+print(marks)
