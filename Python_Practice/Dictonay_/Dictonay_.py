@@ -108,13 +108,4 @@ vol=["A","E","I","O","U"]
 # for i in vol:
 #     if(i==ptvol):
 #         count+=1
-let  count=0
-let findvol="Masai" 
-for (let i=0;i<vol.length;i++){
-    if(i=findvol){
-        count++
-    }else{
-        continue
-    }
-}
 
