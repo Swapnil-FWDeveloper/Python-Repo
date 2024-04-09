@@ -58,3 +58,14 @@ S2=Student1("Swapnil-Shende") # it will print name as it is calling it self
 print(S2.name)        
 print(S2.age) 
 print(S2.marks)
+
+class Student1:
+    def __init__(self,fullname,age) :
+        print("Adding new addmission to Student1..")
+        self.name=fullname
+        self.age=age
+        self.marks=90
+        print(self.name)
+S2=Student1("Swapnil-Shende",21) # it will print name as it is calling it self
+# print(S2.name,97)        
+print(S2.marks)
